@@ -39,6 +39,6 @@ class Scrollsense < Formula
   end
 
   test do
-    assert_match "scrollSense", shell_output("#{bin}/scrollSense --version")
+    assert_match "1.0.0", shell_output("#{bin}/scrollSense --version")
   end
 end
